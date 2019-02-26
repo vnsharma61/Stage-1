@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font: 16px 'Source Sans Pro', sans-serif;
+  border: none;
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #2E706C;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  display: table;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#quiz {
+  margin: -44px 50px 0px;
+  position: relative;
+  width: calc(100% - 100px);
+}
+
+#quiz h1 {
+  color: #FAFAFA;
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 44px;
+}
+
+#quiz button {
+  float: right;
+  margin: 8px 0px 0px 8px;
+  padding: 4px 8px;
+  background: #9ACFCC;
+  color: #00403C;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+#quiz button:hover {
+  background: #36a39c;
+  color: #FFF;
+}
+
+#quiz button:disabled {
+  opacity: 0.5;
+  background: #9ACFCC;
+  color: #00403C;
+  cursor: default;
+}
+
+#question {
+  padding: 20px;
+  background: #FAFAFA;
+}
+
+#question h2 {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#question input[type=radio] {
+  display: none;
+}
+
+#question label {
+  display: inline-block;
+  margin: 4px;
+  padding: 8px;
+  background: #FAE3BB;
+  color: #4C3000;
+  width: calc(50% - 8px);
+  min-width: 100px;
+  cursor: pointer;
+}
+
+#question label:hover {
+  background: #EBBB67;
+}
+
+#question input[type=radio]:checked + label {
+  background: #CB8306;
+  color: #FAFAFA;
+}
+
+#quiz-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  background: #FAFAFA;
+  width: 100%;
+  height: calc(100% - 44px);
+}
+
+#quiz-results-message {
+  display: block;
+  color: #00403C;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#quiz-results-score {
+  display: block;
+  color: #31706c;
+  font-size: 20px;
+}
+
+#quiz-results-score b {
+  color: #00403C;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&-------Header&Footer&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&8*/
+section.heroSec {
+    background: linear-gradient(to right,#00F260,#0575E6);
+    padding: 160px;
+}
+.heroSec h1{
+  font-size: 80px;
+  color: #fff;
+}
+.heroSec p{
+  color: #fff;
+  font-size: 18px;
+}
+.heroSec a
+{
+  color: #fff;
+  background: #19d376;
+  border-color: #19d376;
+}
+.servicesSec{
+  padding: 80px 0;
+}
+.servicesSec a,
+.servicesSec a:hover{
+  background-color: #343a40;
+  border-color: #343a40; 
+}
+.FeatureOne{
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+.FeatureOne h2{
+  margin-top: 100px;
+}
+.FeatureTwo{
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+.FeatureTwo h2{
+  margin-top: 100px;
+}
+footer p{
+  margin: 0;
+}
+.social{
+  margin: 0;
+  padding: 0;
+}
+.social li{
+  display: inline-block;
+  padding: 5px 0;
+  list-style: none;
+}
+.social i{
+  font-size: 25px;
+}
+.pageTitle {
+  padding: 50px;
+  background: linear-gradient(to right,#00F260,#0575E6)
+}
+.pageTitle{
+  font-size: 45px;
+}
+.abtwel{
+  padding: 80px 0;
+  background: #f9f9f9;
+}
+.abtwel h2{
+  margin-top: 50px;
+  font-size: 40px;
+}
+.abtwel .sep{
+  height: 3px;
+  margin: 15px 0 20px;
+  width: 42%;
+  background: #19d376;
+}
+.ourteam{
+  padding: 80px 0;
+}
+.ourteam h2{
+  font-size: 40px;
+}
+.ourteam .desc{
+  padding: 0 130px;
+}
+.ourteam .team{
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.ourteam .team h3{
+  font-size: 20px;
+}
+.ourteam .team h3 small{
+  font-style: italic;
+  font-size: 70%;
+}
+.contact {
+  padding: 50px;
+  background: linear-gradient(to right,#00F260,#0575E6)
+}
+.contact{
+  font-size: 45px;
+}
+.gettoknow{
+  padding: 50px 0;
+  background: #f9f9f9;
+}
+.gettoknow h2{
+  margin-top: 30px;
+  font-size: 40px;
+}
+.gettoknow .sep{
+  height: 3px;
+  margin: 15px 0 20px;
+  width: 70%;
+  background: #19d376;
+}
+input#subject {
+    margin-top: 10px;
+}
+textarea#exampleFormControlTextarea1 {
+    margin-top: 10px;
+}
+.gettoknow p{
+  background: linear-gradient(to right,#00F260,#0575E6);
+  font-size: 20px;
+  padding: 20px 20px;
+  margin: 40px 0;
+}
+.btn.btn-primary.btn-md {
+    margin-top: 10px;
+}
+
+.right .i{
+  padding-right: 15px;
+}
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&Header&Footer&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
